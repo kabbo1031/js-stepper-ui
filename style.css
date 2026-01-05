@@ -1,0 +1,44 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.stepper{
+  background:#0f172a;
+  padding:30px;
+  border-radius:12px;
+  width:280px;
+  text-align:center;
+}
+
+.steps{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.step{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:#475569;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.step.active{
+  background:#22c55e;
+  color:#022c22;
+}
+
+button{
+  padding:8px 16px;
+  margin:0 6px;
+  cursor:pointer;
+}
